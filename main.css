@@ -1,0 +1,107 @@
+/* ADD YOUR STYLES HERE */
+
+
+
+.tdata td {
+  border-bottom: 1px solid gray;
+  padding: 10px 45px;
+}
+.thead th {
+  border-bottom: 1px solid gray;
+  font-weight: bold;
+  padding: 10px 45px;
+}
+
+.large {
+	font-size: 35px;
+	font-weight: bold;
+}
+
+.tiny {
+	font-size: 12px;
+	color: gray;
+}
+
+.tdata2 {
+  border-bottom: 1px solid gray;
+  border-top: 1px solid gray;
+  padding: 20px 15px;
+}
+
+.graph th {
+  width:160px;
+  float:left;
+  margin-right: 5px;
+  padding:2px 0;
+  display:inline;
+  font-weight:bold;
+  text-align:right;
+}
+
+.graph td {
+  width:539px;
+  float:left;
+  display:inline;
+}
+
+.bar {
+  color:#fff;
+  background:#09f;
+  text-align:left;
+  padding:5px;
+  display:block;
+  border-radius: .25em;
+}
+
+  .lightbox {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100vw;
+    height: 100vh;
+    line-height: 100vh;
+    background-color: rgb(64,64,64);
+    z-index:1;
+    text-align: center;
+  }
+  
+  .close {
+    float:right;
+    line-height: initial;
+    margin: 10px;
+  }
+
+  .close a {
+    color: white;
+    padding: 10px;
+    border-radius: .5em;
+    background-color: red;
+    opacity: .60;
+  }
+
+  .txtstyle {
+    line-height: initial;
+  }
+
+  .lightboxtxt {
+      text-align: left;
+      position: relative;
+      vertical-align: middle;
+      width: 500px;
+      padding: 20px;
+      border-radius: 1em;
+      background-color: white;
+      z-index:2;
+      display: inline-block;
+  }
+
+.itfloats {
+  float: left;
+  margin-right: 10px;
+}
+
+.txtfloat {
+  overflow:hidden;
+}
+
+
